@@ -56,7 +56,6 @@ def handle_request(request):
     # The code is 0 for success and the other for failure.
     # The errorMsg will be displayed on the page when the code is not 0.
     import requests
-    from datetime import datetime
     import copy
 
     true = True
